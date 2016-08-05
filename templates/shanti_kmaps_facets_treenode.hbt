@@ -1,0 +1,10 @@
+<span id="ajax-did-{{key}}">
+    {{title}}  
+    {{#counts count showcounts showzeros}}
+        ({{count}})
+    {{/counts}}
+    
+    {{#if showkey}}
+        [{{key}}]
+    {{/if}}
+</span>

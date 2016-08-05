@@ -1,0 +1,8 @@
+/**
+ * 	Styles Needed to make three tabs fit horizontally in the search flyout.
+ */
+.view-section .nav-tabs>li.km-facet-tab, .view-section .nav-tabs>li:first-child{ width: 33%;}
+.view-section .nav-tabs>li.km-facet-tab a {font-size: 0.88em;}
+.view-section .nav-tabs>li.km-facet-tab.active>a,
+.view-section .nav-tabs>li.km-facet-tab.active>a:hover,
+.view-section .nav-tabs>li.km-facet-tab.active>a:active{ font-size: 0.93em;}
